@@ -82,24 +82,7 @@ docker compose up -d
 
 ## Usage
 
-__*Notice that you must first aquire your own Last.FM API key before continuing...__
 
-- Aquire [Last.FM API Key](https://www.last.fm/api) by making an account, it is completely free
-
-- Copy your API Key int the following varible found in actions/actions.py [API_KEY = 'enter your Last.FM API'](https://github.com/cosettekay/Music-Recommendation-Bot/blob/2d3ba8d541ed20286fb06cb84bde47b9c62045ec/actions/actions.py#L16)
-
-Once that is complete, you're read to build your bot
-
-The following code only has to be ran once:
-```sh
-$ docker build -t my_action_image
-```
-
-Running the bot can simiply be ran by using Docker Compose command:
-```sh
-$ docker compose run rasa
-```
-Now you can chat with Aca Pella
 
 ## Contact
 
@@ -109,11 +92,6 @@ Cosette Tabucol:
 
 ## Acknowledgements
 
-- [Last.FM API](https://www.last.fm/api)
-- [Music & Me](https://github.com/Srishti20022/Music-me-Chatbot_song_recommendor_system-)
-- [Rasa Assistant on Docker](https://rasa.com/docs/rasa/docker/building-in-docker/)
-- [SpaCy Pre-Trained Model](https://spacy.io/models/en)
-- [Rasa Data Templates](https://github.com/cedextech/rasa-chatbot-templates/tree/master)
-- [Rasa Mood Training Data](https://github.com/RasaHQ/NLU-training-data/tree/main/mood)
-- [Getting Music Data with the Last.fm API using Python](https://www.dataquest.io/blog/last-fm-api-python/)
+- []()
+
 
