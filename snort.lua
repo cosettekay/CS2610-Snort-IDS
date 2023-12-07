@@ -169,7 +169,7 @@ ips =
     -- use include for rules files; be sure to set your path
     -- note that rules files can include other rules files
     --include = 'snort3-community.rules'
-    include='/home/snorty/snort3/etc/rules/new.rules'
+    include = '/home/snorty/snort3/etc/rules/new.rules'
 }
 
 -- use these to configure additional rule actions
@@ -229,7 +229,7 @@ rate_filter =
 --alert_full = { }
 --alert_sfsocket = { }
 --alert_syslog = { }
---unified2 = { file = true , limit = 128 }
+--unified2 = { }
 
 -- packet logging
 -- you can enable with defaults from the command line with -L <log_type>

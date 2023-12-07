@@ -112,5 +112,5 @@ if ! shopt -oq posix; then
   fi
 fi
 if [[ ! $PATH =~ /home/snorty/snort3/bin ]]; then export PATH=$PATH:/home/snorty/snort3/bin; fi
-alias snort="snort -c $HOME/snort3/etc/snort/snort.lua"
+alias snort="snort -c /home/snorty/snort3/etc/snort/snort.lua"
 export TERM=xterm-256color
