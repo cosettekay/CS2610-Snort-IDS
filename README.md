@@ -32,7 +32,9 @@ This project guides you through setting up Snort, a popular Intrusion Detection 
   
 ### Built With
 - Deployment - [Docker Engine](https://www.docker.com/)
-- Snort IDS - 
+- Snort3 Image - [Ciscotalos/Snort3](https://hub.docker.com/r/ciscotalos/snort3)
+- Docker Extension - [Docker Extension on VSCode]
+- 
 
 ## Setup
 
